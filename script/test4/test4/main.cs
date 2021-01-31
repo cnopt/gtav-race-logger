@@ -30,6 +30,8 @@ namespace test4
         TextElement currentEngineTemp;
         TextElement currentFuelLevel;
         TextElement currentPos;
+        System.IO.StreamWriter file;
+        int rNum;
 
         public Main()
         {
@@ -81,6 +83,8 @@ namespace test4
                 currentFuelLevel.Draw();
                 currentPos.Draw();
 
+                file.WriteLine(currentSpeed);
+
             }
             
         }
@@ -100,7 +104,11 @@ namespace test4
                 currentFuelLevel.Enabled = true;
                 currentPos.Enabled = true;
 
-                 vehicleStatsShow = true;
+                Random rnd = new System.Random();
+                rNum = rnd.Next(1, 5000);
+                file = new System.IO.StreamWriter(@"D:\Users\Charlie\Documents\gtav-race-logger\generated\" + rNum + ".txt", true);
+
+                vehicleStatsShow = true;
             }
 
         }
