@@ -23,6 +23,13 @@ namespace test4
         TextElement currentSpeed;
         TextElement currentRPM;
         TextElement currentGear;
+        TextElement currentAngle;
+        TextElement currentThrottle;
+        TextElement currentBraking;
+        TextElement currentClutch;
+        TextElement currentEngineTemp;
+        TextElement currentFuelLevel;
+        TextElement currentPos;
 
         public Main()
         {
@@ -39,6 +46,13 @@ namespace test4
             currentSpeed = new UI.TextElement("Text", new PointF(0.3f, 0.5f), 0.5f);
             currentRPM = new UI.TextElement("Text", new PointF(0.3f, 40f), 0.5f);
             currentGear = new UI.TextElement("Text", new PointF(0.3f, 60f), 0.5f);
+            currentAngle = new UI.TextElement("Text", new PointF(0.3f, 80f), 0.5f);
+            currentThrottle = new UI.TextElement("Text", new PointF(0.3f, 100f), 0.5f);
+            currentBraking = new UI.TextElement("Text", new PointF(0.3f, 120f), 0.5f);
+            currentClutch = new UI.TextElement("Text", new PointF(0.3f, 140f), 0.5f);
+            currentEngineTemp = new UI.TextElement("Text", new PointF(0.3f, 160f), 0.5f);
+            currentFuelLevel = new UI.TextElement("Text", new PointF(0.3f, 180f), 0.5f);
+            currentPos = new UI.TextElement("Text", new PointF(0.3f, 200f), 0.5f);
         }
 
         void OnTick(object sender, EventArgs e)
@@ -48,10 +62,24 @@ namespace test4
                 currentSpeed.Caption = Game.Player.Character.CurrentVehicle.Speed.ToString();
                 currentRPM.Caption   = Game.Player.Character.CurrentVehicle.CurrentRPM.ToString();
                 currentGear.Caption  = Game.Player.Character.CurrentVehicle.CurrentGear.ToString();
+                currentAngle.Caption = Game.Player.Character.CurrentVehicle.SteeringAngle.ToString();
+                currentThrottle.Caption = Game.Player.Character.CurrentVehicle.Throttle.ToString();
+                currentBraking.Caption = Game.Player.Character.CurrentVehicle.BrakePower.ToString();
+                currentClutch.Caption = Game.Player.Character.CurrentVehicle.Clutch.ToString();
+                currentEngineTemp.Caption = Game.Player.Character.CurrentVehicle.EngineTemperature.ToString();
+                currentFuelLevel.Caption = Game.Player.Character.CurrentVehicle.FuelLevel.ToString();
+                currentPos.Caption = Game.Player.Character.Position.ToString();
 
                 currentSpeed.Draw();
                 currentRPM.Draw();
                 currentGear.Draw();
+                currentAngle.Draw();
+                currentThrottle.Draw();
+                currentBraking.Draw();
+                currentClutch.Draw();
+                currentEngineTemp.Draw();
+                currentFuelLevel.Draw();
+                currentPos.Draw();
 
             }
             
@@ -64,8 +92,15 @@ namespace test4
                 currentSpeed.Enabled = true;
                 currentRPM.Enabled = true;
                 currentGear.Enabled = true;
+                currentAngle.Enabled = true;
+                currentThrottle.Enabled = true;
+                currentBraking.Enabled = true;
+                currentClutch.Enabled = true;
+                currentEngineTemp.Enabled = true;
+                currentFuelLevel.Enabled = true;
+                currentPos.Enabled = true;
 
-                vehicleStatsShow = true;
+                 vehicleStatsShow = true;
             }
 
         }
