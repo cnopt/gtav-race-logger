@@ -1,1 +1,1 @@
-gtav-race-logger
+gtav-vehicle-logger
