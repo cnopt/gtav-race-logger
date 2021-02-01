@@ -69,6 +69,14 @@ namespace test4
             endKey = data["General"]["EndKey"];
             debugDisplay = bool.Parse(data["General"]["Debug"]);
         }
+        void SetupOutputFile()
+        {
+            Random rnd = new System.Random();
+            rNum = rnd.Next(1, 5000);
+            file = new System.IO.StreamWriter(@"D:\Users\Charlie\Documents\gtav-race-logger\gtav-race-logger\generated\" + rNum + ".txt", true);
+            file.WriteLine("Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y");
+            isLoggingToFile = true;
+        }
 
         void SetupDisplay()
         {
@@ -117,8 +125,8 @@ namespace test4
         void LogToFile()
         {
             file.WriteLine(wheelSpeed + "," + rpm + "," + gear + "," + angle + "," +
-                               throttle + "," + braking + "," + clutch + "," + engineTemp
-                               + "," + posX + "," + posY);
+                           throttle + "," + braking + "," + clutch + "," + engineTemp
+                           + "," + posX + "," + posY);
         }
 
         void ShowVehicleSensors()
@@ -154,11 +162,8 @@ namespace test4
         {
             if (e.KeyCode == (Keys)Enum.Parse(typeof(Keys), beginKey))
             {
-                Random rnd = new System.Random();
-                rNum = rnd.Next(1, 5000);
-                file = new System.IO.StreamWriter(@"D:\Users\Charlie\Documents\gtav-race-logger\gtav-race-logger\generated\" + rNum + ".txt", true);
-                file.WriteLine("Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y");
-                isLoggingToFile = true;
+                SetupOutputFile();
+                             
                 if (debugDisplay)
                 {
                     vehicleStatsShow = true;
