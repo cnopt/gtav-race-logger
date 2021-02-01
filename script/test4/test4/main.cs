@@ -48,13 +48,13 @@ namespace test4
         void ReadConfig() // parse values inside the config file
         {
             var parser   = new FileIniDataParser();
-            IniData data = parser.ReadFile(@"D:\Users\Charlie\Documents\gtav-race-logger\gtav-race-logger\config.ini");
+            IniData data = parser.ReadFile(System.AppDomain.CurrentDomain.BaseDirectory + @"\racelogger.ini");
             
             cfgBeginKey = data["General"]["BeginKey"];
             cfgEndKey   = data["General"]["EndKey"];
             cfgDebug    = bool.Parse(data["General"]["Debug"]);
         }
-        void SetupOutputFile() // creates output file and writes headers
+        void SetupOutputFile() // creates output file and writes headers, using random num as filename
         {
             Random rnd = new System.Random();
             rNum = rnd.Next(1, 5000);
@@ -65,18 +65,18 @@ namespace test4
 
         void SetupDisplay() // creates textelements for debug display
         {
-            debugContainer       = new UI.ContainerElement(new PointF(0.3f, 0.5f), new SizeF(200, 230), Color.Transparent);
-            debug_speed = new UI.TextElement("", new PointF(0.3f, 0.5f), 0.3f);
+            debugContainer   = new UI.ContainerElement(new PointF(0.3f, 0.5f), new SizeF(200, 230), Color.Transparent);
+            debug_speed      = new UI.TextElement("", new PointF(0.3f, 0.5f), 0.3f);
             debug_wheelSpeed = new UI.TextElement("", new PointF(0.3f, 20f), 0.3f);
-            debug_rpm = new UI.TextElement("", new PointF(0.3f, 40f), 0.3f);
-            debug_gear = new UI.TextElement("", new PointF(0.3f, 60f), 0.3f);
-            debug_angle = new UI.TextElement("", new PointF(0.3f, 80f), 0.3f);
-            debug_throttle = new UI.TextElement("", new PointF(0.3f, 100f), 0.3f);
-            debug_braking = new UI.TextElement("", new PointF(0.3f, 120f), 0.3f);
-            debug_clutch = new UI.TextElement("", new PointF(0.3f, 140f), 0.3f);
+            debug_rpm        = new UI.TextElement("", new PointF(0.3f, 40f), 0.3f);
+            debug_gear       = new UI.TextElement("", new PointF(0.3f, 60f), 0.3f);
+            debug_angle      = new UI.TextElement("", new PointF(0.3f, 80f), 0.3f);
+            debug_throttle   = new UI.TextElement("", new PointF(0.3f, 100f), 0.3f);
+            debug_braking    = new UI.TextElement("", new PointF(0.3f, 120f), 0.3f);
+            debug_clutch     = new UI.TextElement("", new PointF(0.3f, 140f), 0.3f);
             debug_engineTemp = new UI.TextElement("", new PointF(0.3f, 160f), 0.3f);
-            debug_fuelLevel = new UI.TextElement("", new PointF(0.3f, 180f), 0.3f);
-            debug_worldPos = new UI.TextElement("", new PointF(0.3f, 200f), 0.3f);
+            debug_fuelLevel  = new UI.TextElement("", new PointF(0.3f, 180f), 0.3f);
+            debug_worldPos   = new UI.TextElement("", new PointF(0.3f, 200f), 0.3f);
 
             debugContainer.Items.Add(debug_speed);
             debugContainer.Items.Add(debug_wheelSpeed);
