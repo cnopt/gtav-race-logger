@@ -1,0 +1,538 @@
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+7.143784,0.2,1,-0.1915378,0,0,0.4,45.91082,-1585.775,2981.856
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+7.114089,0.2,1,-0.1573036,0,0,0.4,45.99651,-1585.813,2981.993
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+7.070867,0.2,1,-0.1369334,0,0,0.4,46.05848,-1585.841,2982.091
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+7.049562,0.2,1,-0.1175726,0,0,0.4,46.12606,-1585.871,2982.198
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+7.018888,0.2,1,-0.1010244,0,0,0.4,46.19324,-1585.9,2982.304
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+6.979523,0.2,1,-0.08622704,0,0,0.4,46.26306,-1585.931,2982.414
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+6.940661,0.2,1,-0.0741474,0,0,0.4,46.32975,-1585.959,2982.518
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+6.901838,0.2,1,-0.06354386,0,0,0.4,46.39773,-1585.989,2982.625
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+6.867034,0.2,1,-0.05465263,0,0,0.4,46.46415,-1586.017,2982.728
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+6.833447,0.2,1,-0.04686918,0,0,0.4,46.53167,-1586.046,2982.833
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+6.801051,0.2,1,-0.04026143,0,0,0.4,46.59842,-1586.075,2982.937
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+6.765436,0.2,1,-0.03455635,0,0,0.4,46.66542,-1586.104,2983.04
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+6.734586,0.2,1,-4.869372,0,0,0.4,46.73204,-1586.132,2983.143
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+6.708508,0.2,1,-9.021279,0,0,0.4,46.79856,-1586.159,2983.245
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+6.669481,0.2,1,-12.60485,0,0,0.4,46.86532,-1586.185,2983.348
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+6.655229,0.2161912,1,-15.72312,1,0,0.4323178,46.93291,-1586.209,2983.452
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+6.695033,0.2320887,1,-18.34323,1,0,0.4640492,46.99915,-1586.233,2983.556
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+6.789956,0.248078,1,-20.60521,1,0,0.495964,47.06564,-1586.255,2983.661
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+6.880377,0.2641587,1,-22.55592,1,0,0.5280612,47.13237,-1586.277,2983.768
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+6.974573,0.2800469,1,-24.20709,1,0,0.5597742,47.19814,-1586.297,2983.875
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+7.075561,0.2960584,1,-25.63554,1,0,0.5917334,47.26427,-1586.316,2983.985
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+7.181884,0.3119956,1,-26.85457,1,0,0.623544,47.32991,-1586.335,2984.094
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+7.297405,0.3278933,1,-27.89803,1,0,0.655276,47.39522,-1586.352,2984.206
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+7.42211,0.3439992,1,-28.80558,1,0,0.6874236,47.46119,-1586.368,2984.32
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+7.557006,0.3600777,1,-29.58184,1,0,0.7195164,47.52685,-1586.384,2984.436
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+7.699063,0.3759671,1,-30.23941,1,0,0.7512318,47.59154,-1586.398,2984.552
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+7.855816,0.391996,1,-30.80926,1,0,0.7832256,47.65659,-1586.411,2984.671
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+8.095264,0.4079911,1,-31.29726,1,0,0.815152,47.7213,-1586.423,2984.792
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+8.333871,0.42393,1,-31.71481,1,0,0.8469662,47.78558,-1586.433,2984.913
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+8.52897,0.4400732,1,-32.07823,1,0,0.879188,47.85048,-1586.443,2985.038
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+8.670097,0.4559836,1,-27.64212,1,0,0.9109454,47.91423,-1586.451,2985.163
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+8.819592,0.4718474,1,-23.83871,1,0,0.9426096,47.97758,-1586.457,2985.29
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+8.983858,0.4876704,1,-20.57492,1,0,0.9741924,48.04052,-1586.463,2985.418
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+9.166712,0.5035471,1,-17.75606,1,0,1,48.10343,-1586.467,2985.55
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+9.355128,0.5198992,1,-15.25791,1,0,1,48.16793,-1586.471,2985.688
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+9.547477,0.5351773,1,-13.16362,1,0,1,48.23078,-1586.475,2985.825
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+9.739787,0.5458913,1,-11.37899,1,0,1,48.29276,-1586.478,2985.964
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+9.921591,0.5561813,1,-9.818609,1,0,1,48.35535,-1586.481,2986.107
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+10.09735,0.5663606,1,-8.488633,1,0,1,48.4171,-1586.485,2986.252
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+10.27238,0.5766696,1,-7.354275,1,0,1,48.47792,-1586.488,2986.397
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+10.43978,0.5865892,1,-6.343982,1,0,1,48.54036,-1586.492,2986.549
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+10.60819,0.5967945,1,-5.492568,1,0,1,48.60127,-1586.495,2986.7
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+10.75666,0.6059167,1,-4.754643,1,0,1,48.66216,-1586.499,2986.854
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+10.90138,0.6151476,1,-4.124503,1,0,1,48.72215,-1586.502,2987.008
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+11.03994,0.6236778,1,-3.568638,1,0,1,48.78307,-1586.506,2987.168
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+11.17965,0.6323658,1,-3.098462,1,0,1,48.84254,-1586.509,2987.326
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+11.40882,0.6426604,1,-2.688973,1,0,1,48.90211,-1586.512,2987.488
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+11.64366,0.6530391,1,-2.335863,1,0,1,48.96123,-1586.516,2987.651
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+11.88169,0.6643466,1,-2.028821,1,0,1,49.02032,-1586.519,2987.817
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+12.12428,0.6759234,1,-1.75358,1,0,1,49.08123,-1586.522,2987.991
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+12.36566,0.6878784,1,-1.521115,1,0,1,49.14066,-1586.525,2988.164
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+12.60398,0.6998975,1,-1.322567,1,0,1,49.19909,-1586.528,2988.337
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+12.84388,0.7120818,1,-1.149266,1,0,1,49.25766,-1586.53,2988.513
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+13.08252,0.7244283,1,-5.458247,1,0,1,49.31569,-1586.532,2988.691
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+13.32072,0.7368787,1,-9.189332,1,0,1,49.37334,-1586.532,2988.871
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+13.55793,0.7484702,1,-12.41535,1,0,1,49.43053,-1586.53,2989.052
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+13.79575,0.7596772,1,-15.22633,1,0,1,49.48761,-1586.526,2989.235
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+14.0342,0.7711401,1,-17.67642,1,0,1,49.54462,-1586.521,2989.42
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+14.27981,0.7819981,1,-19.87064,1,0,1,49.6031,-1586.513,2989.613
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+14.51776,0.7922941,1,-21.71141,1,0,1,49.65955,-1586.504,2989.802
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+14.75483,0.8024241,1,-23.30785,1,0,1,49.71558,-1586.493,2989.991
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+14.99415,0.8123598,1,-24.71204,1,0,1,49.77193,-1586.48,2990.184
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+15.22976,0.8223394,1,-21.61068,1,0,1,49.82722,-1586.465,2990.375
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+15.46889,0.8352711,1,-18.86424,1,0,1,49.88313,-1586.447,2990.57
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+15.70762,0.847869,1,-16.47688,1,0,1,49.93871,-1586.428,2990.768
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+15.94515,0.8603444,1,-14.4077,1,0,1,49.99379,-1586.406,2990.966
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+16.18557,0.8725288,1,-12.58152,1,0,1,50.0493,-1586.383,2991.169
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+16.42522,0.884708,1,-10.99648,1,0,1,50.10439,-1586.359,2991.374
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+16.66501,0.8969223,1,-9.614379,1,0,1,50.15927,-1586.333,2991.58
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+16.90619,0.9091186,1,-8.402514,1,0,1,50.21423,-1586.306,2991.79
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+17.1436,0.9213286,1,-7.362836,1,0,1,50.2681,-1586.277,2991.999
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+17.38523,0.9334254,1,-6.438169,1,0,1,50.32269,-1586.248,2992.214
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+17.62304,0.9455034,1,-5.644727,1,0,1,50.37619,-1586.218,2992.427
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+17.87076,0.9289553,1,-4.922121,0,0,0.1,50.43167,-1586.185,2992.649
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+17.63502,0.9132077,2,-4.321988,0,0,0.1314324,50.48446,-1586.152,2992.859
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+17.39284,0.8970302,2,-3.780221,0,0,0.1637228,50.53865,-1586.117,2993.074
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+17.15322,0.8810234,2,-3.311008,0,0,0.1956726,50.59224,-1586.081,2993.287
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+16.91374,0.8650266,2,-2.899998,0,0,0.2276024,50.64577,-1586.043,2993.498
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+16.6739,0.8490052,2,-2.539211,0,0,0.2595812,50.69934,-1586.004,2993.708
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+16.43534,0.8330692,2,-2.224789,0,0,0.2913896,50.7526,-1585.963,2993.917
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+16.19571,0.8170618,2,-1.947895,0,0,0.3233406,50.80605,-1585.921,2994.125
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+15.95819,0.8011956,2,-1.707462,0,0,0.3550096,50.85899,-1585.877,2994.331
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+15.72079,0.7853373,2,-1.496697,0,0,0.386663,50.91187,-1585.831,2994.536
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+15.4775,0.7690857,2,-1.307266,0,0,0.4191012,50.96601,-1585.783,2994.745
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+15.23789,0.7530795,2,-1.144219,0,0,0.4510496,51.01928,-1585.734,2994.949
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+14.9973,0.7370082,2,-1.00085,0,0,0.4831282,51.07273,-1585.683,2995.154
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+14.75973,0.7211385,2,-0.8769532,0,0,0.5148042,51.12547,-1585.632,2995.355
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+14.52295,0.7053214,2,-0.7686976,0,0,0.5463752,51.17799,-1585.581,2995.556
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+14.28117,0.6891709,2,-0.671755,0,0,0.5786117,51.23157,-1585.527,2995.759
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+14.04299,0.6764312,2,-0.5882517,1,0,0.6103693,51.28431,-1585.472,2995.961
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+13.80275,0.6637278,2,-0.5146973,1,0,0.6424017,51.33727,-1585.416,2996.167
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+13.69939,0.6516867,2,-0.4509245,1,0,0.6742355,51.38967,-1585.359,2996.373
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+13.86736,0.639164,2,-0.3949134,1,0,0.7062407,51.4421,-1585.3,2996.582
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+13.99656,0.6262242,2,-0.3462991,1,0,0.7380517,51.49398,-1585.24,2996.792
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+14.12958,0.6136719,2,-0.3035932,1,0,0.7700137,51.54586,-1585.18,2997.004
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+14.25901,0.6014119,2,-0.2663048,1,0,0.8019425,51.59745,-1585.118,2997.219
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+14.38854,0.589544,2,-0.2337436,1,0,0.8338247,51.64872,-1585.055,2997.435
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+14.52373,0.5781268,2,-0.2050342,1,0,0.8659443,51.70012,-1584.991,2997.654
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+14.64888,0.5669655,2,-0.1802101,1,0,0.8976969,51.75071,-1584.927,2997.873
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+14.77021,0.5561115,2,-0.1585288,1,0,0.929338,51.8009,-1584.863,2998.093
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+14.8869,0.5454662,2,-0.1395276,1,0,0.9609485,51.85081,-1584.797,2998.315
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+15.00231,0.5351126,2,-0.1228656,1,0,0.9925297,51.90046,-1584.731,2998.538
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+15.11709,0.5362501,2,-0.1081466,1,0,1,51.95019,-1584.664,2998.765
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+15.23368,0.5409827,2,-0.09528749,1,0,1,51.99946,-1584.597,2998.992
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+15.3429,0.5454987,2,-0.0839267,1,0,1,52.04877,-1584.529,2999.223
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+15.46098,0.5510927,2,-0.07399848,1,0,1,52.09763,-1584.461,2999.455
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+15.57569,0.5557572,2,-0.06522497,1,0,1,52.14651,-1584.391,2999.689
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+15.81241,0.5651479,2,-0.05757029,1,0,1,52.19481,-1584.322,2999.924
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+16.04884,0.5701143,2,-0.05083973,1,0,1,52.24284,-1584.252,3000.16
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+16.28702,0.574154,2,-0.04486796,1,0,1,52.29102,-1584.182,3000.399
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+16.52388,0.5788586,2,-0.03963956,1,0,1,52.33874,-1584.11,3000.639
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+16.76258,0.5832223,2,-0.03499619,1,0,1,52.38663,-1584.038,3000.882
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+16.97485,0.5898628,2,-0.0309366,1,0,1,52.43398,-1583.966,3001.125
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+17.11,0.5955133,2,-0.02735532,1,0,1,52.48114,-1583.893,3001.37
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+17.24995,0.5986661,2,-0.02419522,1,0,1,52.52813,-1583.82,3001.617
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+17.41958,0.6041628,2,-0.02138099,1,0,1,52.57536,-1583.745,3001.869
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+17.60133,0.6103235,2,-0.01890969,1,0,1,52.62221,-1583.67,3002.122
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+17.78741,0.6164334,2,-0.01673945,1,0,1,52.66864,-1583.594,3002.377
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+17.98066,0.6247783,2,-0.01479169,1,0,1,52.71563,-1583.516,3002.639
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+18.17393,0.6358542,2,-0.01311618,1,0,1,52.76129,-1583.44,3002.897
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+18.38089,0.6424289,2,-0.0116305,1,0,1,52.80686,-1583.362,3003.158
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+18.50552,0.6475906,2,-0.01031704,1,0,1,52.85221,-1583.284,3003.421
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+18.63085,0.6525602,2,-0.009156267,1,0,1,52.89731,-1583.206,3003.686
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+18.75735,0.6569806,2,-0.008085332,1,0,1,52.94411,-1583.124,3003.964
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+18.98214,0.6624747,2,-0.007173194,1,0,1,52.98917,-1583.044,3004.236
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.21949,0.6689999,2,-0.006373479,1,0,1,53.03362,-1582.965,3004.507
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.32816,0.6774983,2,-0.005664463,1,0,1,53.07788,-1582.886,3004.781
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.34,0.679994,2,-0.005032015,1,0,1,53.12223,-1582.805,3005.059
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.36437,0.6827772,2,3.789196,1,0,1,53.16607,-1582.726,3005.338
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.41169,0.6876607,2,7.155136,1,0,1,53.20971,-1582.646,3005.62
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.49403,0.6912968,2,10.12081,1,0,1,53.25284,-1582.567,3005.903
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.5836,0.6944869,2,12.76124,1,0,1,53.29586,-1582.487,3006.189
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.70424,0.7003034,2,15.1288,1,0,1,53.33908,-1582.408,3006.481
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.81269,0.7034155,2,17.20625,1,0,1,53.3816,-1582.329,3006.771
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+20.01925,0.7073126,2,19.05988,1,0,1,53.42408,-1582.25,3007.063
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+20.1843,0.7104248,2,20.72308,1,0,1,53.46675,-1582.171,3007.358
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+20.35309,0.713801,2,22.18171,1,0,1,53.50869,-1582.094,3007.651
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+20.59043,0.7226636,2,23.48527,1,0,1,53.55061,-1582.016,3007.946
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+20.71951,0.7250909,2,24.64659,1,0,1,53.59239,-1581.939,3008.243
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+20.81629,0.7276102,2,25.67953,1,0,1,53.63395,-1581.863,3008.541
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+20.87193,0.7292736,2,26.60039,1,0,1,53.67536,-1581.787,3008.841
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+21.11021,0.7350886,2,27.42506,1,0,1,53.71681,-1581.712,3009.144
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+21.295,0.7372678,2,28.1573,0,0,1,53.75795,-1581.639,3009.445
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+21.0587,0.721483,2,28.80878,0,0,1,53.79887,-1581.568,3009.745
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+20.82019,0.7055504,2,29.39718,0,0,1,53.84017,-1581.498,3010.048
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+20.58248,0.6969532,2,29.92129,0,0,1,53.88133,-1581.43,3010.349
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+20.34507,0.6954689,2,30.38931,0,0,1,53.92243,-1581.364,3010.649
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+20.10744,0.6943974,2,30.80816,0,0,1,53.96358,-1581.301,3010.95
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.86999,0.6933427,2,31.18233,0,0,1,54.0047,-1581.241,3011.25
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.82351,0.692147,2,31.51981,0,0,1,54.0462,-1581.182,3011.553
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.81988,0.6907071,2,31.81392,0,0,1,54.08671,-1581.128,3011.848
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.80579,0.689016,2,32.08256,0,0,1,54.12805,-1581.076,3012.149
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.78195,0.6871613,2,32.32464,0,0,1,54.16977,-1581.026,3012.451
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.74069,0.6850561,2,32.53666,0,0,1,54.21075,-1580.98,3012.749
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.69587,0.6827994,2,32.72743,0,0,1,54.25202,-1580.937,3013.047
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.63075,0.6802205,2,32.89837,0,0,1,54.29343,-1580.897,3013.346
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.57896,0.6777382,2,33.04971,0,0,1,54.33453,-1580.86,3013.642
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.51177,0.6752357,2,33.18481,0,0,1,54.37561,-1580.826,3013.938
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.44101,0.6726071,2,33.30657,0,0,1,54.41709,-1580.795,3014.235
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.37061,0.6693421,2,33.41396,0,0,1,54.4581,-1580.766,3014.529
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.28504,0.6665739,2,33.51062,0,0,1,54.49945,-1580.74,3014.825
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+19.20334,0.6732525,2,33.5966,0,1,1,54.5407,-1580.717,3015.118
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+18.96572,0.6669077,2,33.67359,0,1,1,54.58212,-1580.695,3015.408
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+18.72711,0.6607364,2,33.74272,0,1,1,54.62388,-1580.674,3015.697
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+18.49151,0.6548505,2,33.80368,0,1,1,54.66526,-1580.655,3015.98
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+18.25397,0.6494382,2,33.85862,0,1,1,54.7071,-1580.637,3016.263
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+18.01607,0.6438805,2,33.90773,0,1,1,54.74915,-1580.621,3016.545
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+17.77864,0.6280206,2,33.95144,0,1,0.1,54.79123,-1580.605,3016.823
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+17.54035,0.6121027,1,33.99055,0,1,0.1317724,54.8336,-1580.59,3017.101
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+17.302,0.5961812,1,34.02541,0,1,0.1635518,54.87611,-1580.575,3017.377
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+17.06647,0.5804479,1,34.05606,0,1,0.1949556,54.91821,-1580.562,3017.647
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+16.82591,0.5643781,1,34.08395,0,1,0.227031,54.96131,-1580.548,3017.922
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+16.5868,0.5484059,1,34.10858,0,1,0.2589116,55.00425,-1580.534,3018.193
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+16.34735,0.5324105,1,34.13049,0,1,0.2908386,55.04734,-1580.52,3018.463
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+16.10733,0.5163772,1,34.14999,0,1,0.3228412,55.09064,-1580.506,3018.731
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+15.86752,0.5003579,1,30.2126,0,1,0.3548158,55.134,-1580.492,3018.998
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+15.62754,0.4843271,1,26.71597,0,1,0.3868134,55.1775,-1580.478,3019.262
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+15.39115,0.468536,1,23.66062,0,1,0.4183326,55.22047,-1580.463,3019.521
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+15.15024,0.4524436,1,20.8942,0,1,0.4504532,55.26438,-1580.448,3019.783
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+14.91004,0.4684891,1,18.45004,0,1,0.4824802,55.30829,-1580.432,3020.041
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+14.62544,0.4875005,1,15.88469,0,1,0.5204272,55.36046,-1580.414,3020.346
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+14.43282,0.5003671,1,14.38439,0,1,0.546109,55.39587,-1580.401,3020.55
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+14.19345,0.5163574,1,12.69164,0,1,0.5780258,55.43998,-1580.386,3020.802
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+13.95432,0.5323315,1,11.19481,0,1,0.6099101,55.48416,-1580.37,3021.052
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+13.7134,0.5484244,1,9.860305,0,1,0.6420317,55.52879,-1580.353,3021.301
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+13.47731,0.5641953,1,8.704491,0,1,0.6735106,55.57266,-1580.337,3021.543
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+13.23811,0.580174,1,7.667211,0,1,0.7054042,55.61724,-1580.321,3021.786
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+13.00132,0.5959916,1,6.759505,0,1,0.7369764,55.66152,-1580.304,3022.024
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+12.70123,0.6160374,1,5.741718,0,1,0.776988,55.71781,-1580.283,3022.323
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+12.50687,0.6290206,1,5.179142,0,1,0.8029023,55.75442,-1580.269,3022.515
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+12.27748,0.6443437,1,4.578353,0,1,0.8334875,55.79775,-1580.252,3022.738
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+12.03703,0.6604064,1,4.019546,0,1,0.8655487,55.84333,-1580.234,3022.97
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+11.80152,0.6761379,1,3.537134,0,1,0.8969489,55.88814,-1580.216,3023.195
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+11.5584,0.6923783,1,3.097135,0,1,0.9293649,55.93457,-1580.197,3023.424
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+11.32058,0.7082649,1,2.718686,0,1,0.9610747,55.98016,-1580.179,3023.645
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+11.08141,0.7242413,1,2.383157,0,1,0.9929637,56.0262,-1580.16,3023.864
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+10.84173,0.7402524,1,2.08716,0,1,1,56.07252,-1580.141,3024.081
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+10.60243,0.7562371,1,1.827252,0,1,1,56.11895,-1580.121,3024.295
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+10.36245,0.772268,1,1.598053,0,1,1,56.16571,-1580.101,3024.506
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+10.12227,0.7789441,1,1.396568,0,1,1,56.2127,-1580.08,3024.714
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+9.885683,0.7664263,1,1.222385,0,1,1,56.25917,-1580.059,3024.917
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+9.648377,0.7547289,1,1.068851,0,1,1,56.30595,-1580.038,3025.117
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+9.410913,0.7425883,1,0.9339584,0,1,1,56.35295,-1580.017,3025.314
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+9.173293,0.7309017,1,0.8155465,0,1,1,56.40015,-1579.996,3025.509
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+8.933527,0.719035,1,0.7107964,0,1,1,56.44795,-1579.974,3025.703
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+8.694473,0.7070737,1,0.6194067,0,1,1,56.49578,-1579.951,3025.893
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+8.459221,0.6949344,1,0.5407159,0,1,1,56.54303,-1579.93,3026.079
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+8.221693,0.6863184,1,0.4711576,0,1,1,56.59085,-1579.908,3026.263
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+7.983774,0.6749271,1,0.4102176,0,1,1,56.63891,-1579.886,3026.445
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+7.746562,0.6633425,1,0.3571145,0,1,1,56.68699,-1579.864,3026.623
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+7.508416,0.651648,1,0.3105243,0,1,1,56.73543,-1579.842,3026.799
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+7.271415,0.6401095,1,0.2700541,0,1,1,56.78381,-1579.819,3026.972
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+7.033203,0.6289096,1,0.2345488,0,1,1,56.83259,-1579.797,3027.143
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+6.796,0.6179639,1,0.2037326,0,1,1,56.88132,-1579.774,3027.311
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+6.556786,0.6068516,1,0.1766406,0,1,1,56.93062,-1579.752,3027.477
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+6.31315,0.5955151,1,0.1526291,0,1,1,56.981,-1579.728,3027.644
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+6.076408,0.5847643,1,0.1323987,0,1,1,57.03009,-1579.706,3027.804
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+5.836877,0.5750304,1,0.1145874,0,1,1,57.0799,-1579.683,3027.964
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+5.598226,0.5663081,1,0.09918591,0,1,1,57.12963,-1579.66,3028.121
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+5.359111,0.5590139,1,0.0857975,0,1,1,57.17954,-1579.637,3028.278
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+5.119775,0.5520772,1,0.07418002,0,1,1,57.22956,-1579.614,3028.432
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+4.882136,0.545433,1,0.06418575,0,1,1,57.2793,-1579.591,3028.585
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+4.644946,0.5390947,1,0.05553698,0,1,1,57.32901,-1579.569,3028.736
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+4.407326,0.5329709,1,0.04802551,0,1,1,57.37886,-1579.546,3028.885
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+4.170089,0.5269946,1,0.04152816,0,1,1,57.42868,-1579.524,3029.033
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+3.932116,0.5210133,1,0.03588169,0,1,1,57.47871,-1579.501,3029.18
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+3.694387,0.5146932,1,0.03099823,0,1,1,57.52875,-1579.478,3029.325
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+3.457042,0.5081027,1,0.02677742,0,1,1,57.57877,-1579.456,3029.468
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+3.219679,0.5011277,1,0.02312301,0,1,1,57.62887,-1579.434,3029.609
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+2.981806,0.4937269,1,0.01995316,0,1,0.9874538,57.67915,-1579.411,3029.748
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+2.744264,0.4858842,1,0.01721491,0,1,0.9717684,57.72946,-1579.389,3029.885
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+2.506966,0.4776422,1,0.01484873,0,1,0.9552844,57.77982,-1579.367,3030.02
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+2.269219,0.462958,1,0.01279842,0,1,0.9259161,57.83037,-1579.346,3030.153
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+2.03116,0.4470557,1,0.01102431,0,1,0.8941114,57.88109,-1579.324,3030.284
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+1.794136,0.4312225,1,0.009498794,0,1,0.862445,57.93168,-1579.302,3030.411
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+1.555522,0.4152831,1,0.008172096,0,1,0.8305662,57.98272,-1579.281,3030.538
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+1.318676,0.3994618,1,0.007036152,0,1,0.7989236,58.03348,-1579.26,3030.662
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+1.082257,0.383669,1,0.006057409,0,1,0.767338,58.08424,-1579.239,3030.783
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+0.8411871,0.3675655,1,0.005196088,0,1,0.7351311,58.1361,-1579.218,3030.904
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+0.6017166,0.3515689,1,0.004460314,0,1,0.7031378,58.18771,-1579.198,3031.023
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+0.3644466,0.3357193,1,0.003833008,0,1,0.6714386,58.23893,-1579.177,3031.138
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+0.1271886,0.3198704,1,0.00329266,0,1,0.6397409,58.29024,-1579.157,3031.252
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+0,0.3040329,1,0.002827701,0,1,0.6080658,58.3416,-1579.137,3031.363
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+0,0.2881445,1,0.002426147,0,1,0.576289,58.39322,-1579.118,3031.472
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+0,0.2722851,1,0.002081404,0,1,0.5445703,58.44482,-1579.098,3031.579
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+0,0.2562802,1,0.001782195,0,1,0.5125604,58.497,-1579.078,3031.685
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+0,0.2405589,1,0.001529905,0,1,0.4811178,58.54835,-1579.06,3031.787
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+0,0.2245871,1,0.001309328,0,1,0.4491743,58.60062,-1579.04,3031.888
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+0,0.2086912,1,0.001120973,0,1,0.4173824,58.65273,-1579.022,3031.987
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+0,0.2,1,0.000959641,0,1,0.4,58.70484,-1579.003,3032.083
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+0,0.2,1,0.0008210754,0,1,0.4,58.75708,-1578.985,3032.177
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+0,0.2,1,0.0007026275,0,0,0.1,58.80925,-1578.969,3032.27
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+0,0.2,1,0.0006003951,0,0,0.1,58.86179,-1578.956,3032.363
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+0,0.2,1,0.0005141911,0,0,0.1,58.91356,-1578.946,3032.454
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+0.2390475,0.2,1,0.0004393367,0,0,0.131873,58.96597,-1578.938,3032.545
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+0.4751715,0.2,1,0.0003761688,0,0,0.1633562,59.01765,-1578.933,3032.635
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+0.718677,0.2,1,0.000320396,0,0,0.1958236,59.07088,-1578.931,3032.726
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+0.9506085,0.2,1,0.0002751512,0,0,0.2267478,59.12149,-1578.931,3032.812
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+1.190217,0.2,1,0.000235009,0,0,0.2586956,59.17372,-1578.933,3032.901
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+1.426314,0.2,1,0.0002012234,0,0,0.2901752,59.22511,-1578.936,3032.987
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+1.664855,0.2,1,0.0001719926,0,0,0.3219806,59.27696,-1578.942,3033.074
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+1.89887,0.2,1,0.0001474789,0,0,0.3531826,59.32777,-1578.949,3033.158
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+2.137575,0.2,1,0.0001260347,0,0,0.38501,59.37953,-1578.958,3033.243
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+2.374383,0.2,1,0.0001078512,0,0,0.4,59.43082,-1578.969,3033.326
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+2.613122,0.2,1,9.216177E-05,0,0,0.4,59.48247,-1578.981,3033.41
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+2.849081,0.2,1,7.890826E-05,0,0,0.4,59.53345,-1578.994,3033.491
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+3.088178,0.2,1,6.740771E-05,0,0,0.4,59.58506,-1579.009,3033.573
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+3.324378,0.2,1,5.770039E-05,0,0,0.4,59.63598,-1579.026,3033.653
+Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y
+3.563514,0.2,1,4.928595E-05,0,0,0.4,59.68747,-1579.045,3033.733
