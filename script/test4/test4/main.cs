@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -32,7 +33,6 @@ namespace test4
         string worldPos;
         string posX;
         string posY;
-        TextElement statsmsg;
         TextElement info_speed;
         TextElement info_wheelSpeed;
         TextElement info_rpm;
@@ -50,7 +50,6 @@ namespace test4
         public Main()
         {
             Setup();
-
             Tick += OnTick;
             KeyDown += OnKeyDown;
         }
@@ -138,7 +137,7 @@ namespace test4
 
                 Random rnd = new System.Random();
                 rNum = rnd.Next(1, 5000);
-                file = new System.IO.StreamWriter(@"D:\Users\Charlie\Documents\gtav-race-logger\generated\" + rNum + ".txt", true);
+                file = new System.IO.StreamWriter(System.AppDomain.CurrentDomain.BaseDirectory + "generated\" + rNum + ".txt", true);
                 file.WriteLine("Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y");
                 vehicleStatsShow = true;
                 Screen.ShowSubtitle("Logging vehicle signals..", 2000);
