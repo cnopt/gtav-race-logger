@@ -33,6 +33,7 @@ namespace test4
         string worldPos;
         string posX;
         string posY;
+        ContainerElement infoContainer;
         TextElement info_speed;
         TextElement info_wheelSpeed;
         TextElement info_rpm;
@@ -57,17 +58,29 @@ namespace test4
         void Setup()
         {
             vehicleStatsShow = false;
-            info_speed = new UI.TextElement("", new PointF(0.3f, 0.5f), 0.5f, System.Drawing.Color.Red);
-            info_wheelSpeed = new UI.TextElement("", new PointF(0.3f, 20f), 0.5f);
-            info_rpm = new UI.TextElement("", new PointF(0.3f, 40f), 0.5f, System.Drawing.Color.Green);
-            info_gear = new UI.TextElement("", new PointF(0.3f, 60f), 0.5f, System.Drawing.Color.Aqua);
-            info_angle = new UI.TextElement("", new PointF(0.3f, 80f), 0.5f, System.Drawing.Color.Yellow);
-            info_throttle = new UI.TextElement("", new PointF(0.3f, 100f), 0.5f, System.Drawing.Color.Orange);
-            info_braking = new UI.TextElement("", new PointF(0.3f, 120f), 0.5f);
-            info_clutch = new UI.TextElement("", new PointF(0.3f, 140f), 0.5f);
-            info_engineTemp = new UI.TextElement("", new PointF(0.3f, 160f), 0.5f);
-            info_fuelLevel = new UI.TextElement("", new PointF(0.3f, 180f), 0.5f);
-            info_worldPos = new UI.TextElement("", new PointF(0.3f, 200f), 0.5f);
+            infoContainer = new UI.ContainerElement(new PointF(0.3f, 0.5f), new SizeF(200, 230), Color.Black);
+            info_speed = new UI.TextElement("", new PointF(0.3f, 0.5f), 0.3f);
+            info_wheelSpeed = new UI.TextElement("", new PointF(0.3f, 20f), 0.3f);
+            info_rpm = new UI.TextElement("", new PointF(0.3f, 40f), 0.3f);
+            info_gear = new UI.TextElement("", new PointF(0.3f, 60f), 0.3f);
+            info_angle = new UI.TextElement("", new PointF(0.3f, 80f), 0.3f);
+            info_throttle = new UI.TextElement("", new PointF(0.3f, 100f), 0.3f);
+            info_braking = new UI.TextElement("", new PointF(0.3f, 120f), 0.3f);
+            info_clutch = new UI.TextElement("", new PointF(0.3f, 140f), 0.3f);
+            info_engineTemp = new UI.TextElement("", new PointF(0.3f, 160f), 0.3f);
+            info_fuelLevel = new UI.TextElement("", new PointF(0.3f, 180f), 0.3f);
+            info_worldPos = new UI.TextElement("", new PointF(0.3f, 200f), 0.3f);
+            infoContainer.Items.Add(info_speed);
+            infoContainer.Items.Add(info_wheelSpeed);
+            infoContainer.Items.Add(info_rpm);
+            infoContainer.Items.Add(info_gear);
+            infoContainer.Items.Add(info_angle);
+            infoContainer.Items.Add(info_throttle);
+            infoContainer.Items.Add(info_braking);
+            infoContainer.Items.Add(info_clutch);
+            infoContainer.Items.Add(info_engineTemp);
+            infoContainer.Items.Add(info_fuelLevel);
+            infoContainer.Items.Add(info_worldPos);
         }
 
         void OnTick(object sender, EventArgs e)
@@ -99,17 +112,7 @@ namespace test4
                 posX = Game.Player.Character.Position.X.ToString();
                 posY = Game.Player.Character.Position.Y.ToString();
 
-                info_speed.Draw();
-                info_wheelSpeed.Draw();
-                info_rpm.Draw();
-                info_gear.Draw();
-                info_angle.Draw();
-                info_throttle.Draw();
-                info_braking.Draw();
-                info_clutch.Draw();
-                info_engineTemp.Draw();
-                info_fuelLevel.Draw();
-                info_worldPos.Draw();
+                infoContainer.Draw();
 
                 file.WriteLine(wheelSpeed + "," + rpm + "," + gear + "," + angle + "," +
                                throttle + "," + braking + "," + clutch + "," + engineTemp 
@@ -123,17 +126,7 @@ namespace test4
         {
             if (e.KeyCode == Keys.F10)
             {
-                info_speed.Enabled = true;
-                info_wheelSpeed.Enabled = true;
-                info_rpm.Enabled = true;
-                info_gear.Enabled = true;
-                info_angle.Enabled = true;
-                info_throttle.Enabled = true;
-                info_braking.Enabled = true;
-                info_clutch.Enabled = true;
-                info_engineTemp.Enabled = true;
-                info_fuelLevel.Enabled = true;
-                info_worldPos.Enabled = true;
+                infoContainer.Enabled = true;
 
                 Random rnd = new System.Random();
                 rNum = rnd.Next(1, 5000);
