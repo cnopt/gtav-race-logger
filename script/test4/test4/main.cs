@@ -19,36 +19,20 @@ namespace test4
 {
    public class Main : Script
     {
-        bool vehicleStatsShow;
-        bool isLoggingToFile;
-        string beginKey;
-        string endKey;
-        bool debugDisplay;
-        string speed;
-        string wheelSpeed;
-        string rpm;
-        string gear;
-        string angle;
-        string throttle;
-        string braking;
-        string clutch;
-        string engineTemp;
-        string fuelLevel;
-        string worldPos;
-        string posX;
-        string posY;
-        ContainerElement infoContainer;
-        TextElement info_speed;
-        TextElement info_wheelSpeed;
-        TextElement info_rpm;
-        TextElement info_gear;
-        TextElement info_angle;
-        TextElement info_throttle;
-        TextElement info_braking;
-        TextElement info_clutch;
-        TextElement info_engineTemp;
-        TextElement info_fuelLevel;
-        TextElement info_worldPos;
+        bool isDebugEnabled, isLoggingToFile = false;
+
+        string cfgBeginKey, cfgEndKey; // config.ini options and hotkeys
+        bool cfgDebug;
+
+        string speed, wheelSpeed, rpm, gear, angle, throttle,
+               braking, clutch, engineTemp, fuelLevel, worldPos,
+               posX, posY; // sensors to be logged
+
+        ContainerElement debugContainer; // debug screen (shows values)
+        TextElement debug_speed, debug_wheelSpeed, debug_rpm, debug_gear,
+                    debug_angle, debug_throttle, debug_braking, debug_clutch,
+                    debug_engineTemp, debug_fuelLevel, debug_worldPos;
+
         System.IO.StreamWriter file;
         int rNum;
 
@@ -61,15 +45,16 @@ namespace test4
             KeyDown += OnKeyDown;
         }
 
-        void ReadConfig()
+        void ReadConfig() // parse values inside the config file
         {
-            var parser = new FileIniDataParser();
+            var parser   = new FileIniDataParser();
             IniData data = parser.ReadFile(@"D:\Users\Charlie\Documents\gtav-race-logger\gtav-race-logger\config.ini");
-            beginKey = data["General"]["BeginKey"];
-            endKey = data["General"]["EndKey"];
-            debugDisplay = bool.Parse(data["General"]["Debug"]);
+            
+            cfgBeginKey = data["General"]["BeginKey"];
+            cfgEndKey   = data["General"]["EndKey"];
+            cfgDebug    = bool.Parse(data["General"]["Debug"]);
         }
-        void SetupOutputFile()
+        void SetupOutputFile() // creates output file and writes headers
         {
             Random rnd = new System.Random();
             rNum = rnd.Next(1, 5000);
@@ -78,39 +63,38 @@ namespace test4
             isLoggingToFile = true;
         }
 
-        void SetupDisplay()
+        void SetupDisplay() // creates textelements for debug display
         {
-            vehicleStatsShow    = false;
-            isLoggingToFile     = false;
-            infoContainer       = new UI.ContainerElement(new PointF(0.3f, 0.5f), new SizeF(200, 230), Color.Transparent);
-            info_speed          = new UI.TextElement("", new PointF(0.3f, 0.5f), 0.3f);
-            info_wheelSpeed     = new UI.TextElement("", new PointF(0.3f, 20f), 0.3f);
-            info_rpm            = new UI.TextElement("", new PointF(0.3f, 40f), 0.3f);
-            info_gear           = new UI.TextElement("", new PointF(0.3f, 60f), 0.3f);
-            info_angle          = new UI.TextElement("", new PointF(0.3f, 80f), 0.3f);
-            info_throttle       = new UI.TextElement("", new PointF(0.3f, 100f), 0.3f);
-            info_braking        = new UI.TextElement("", new PointF(0.3f, 120f), 0.3f);
-            info_clutch         = new UI.TextElement("", new PointF(0.3f, 140f), 0.3f);
-            info_engineTemp     = new UI.TextElement("", new PointF(0.3f, 160f), 0.3f);
-            info_fuelLevel      = new UI.TextElement("", new PointF(0.3f, 180f), 0.3f);
-            info_worldPos       = new UI.TextElement("", new PointF(0.3f, 200f), 0.3f);
-            infoContainer.Items.Add(info_speed);
-            infoContainer.Items.Add(info_wheelSpeed);
-            infoContainer.Items.Add(info_rpm);
-            infoContainer.Items.Add(info_gear);
-            infoContainer.Items.Add(info_angle);
-            infoContainer.Items.Add(info_throttle);
-            infoContainer.Items.Add(info_braking);
-            infoContainer.Items.Add(info_clutch);
-            infoContainer.Items.Add(info_engineTemp);
-            infoContainer.Items.Add(info_fuelLevel);
-            infoContainer.Items.Add(info_worldPos);
-            infoContainer.Enabled = true;
+            debugContainer       = new UI.ContainerElement(new PointF(0.3f, 0.5f), new SizeF(200, 230), Color.Transparent);
+            debug_speed = new UI.TextElement("", new PointF(0.3f, 0.5f), 0.3f);
+            debug_wheelSpeed = new UI.TextElement("", new PointF(0.3f, 20f), 0.3f);
+            debug_rpm = new UI.TextElement("", new PointF(0.3f, 40f), 0.3f);
+            debug_gear = new UI.TextElement("", new PointF(0.3f, 60f), 0.3f);
+            debug_angle = new UI.TextElement("", new PointF(0.3f, 80f), 0.3f);
+            debug_throttle = new UI.TextElement("", new PointF(0.3f, 100f), 0.3f);
+            debug_braking = new UI.TextElement("", new PointF(0.3f, 120f), 0.3f);
+            debug_clutch = new UI.TextElement("", new PointF(0.3f, 140f), 0.3f);
+            debug_engineTemp = new UI.TextElement("", new PointF(0.3f, 160f), 0.3f);
+            debug_fuelLevel = new UI.TextElement("", new PointF(0.3f, 180f), 0.3f);
+            debug_worldPos = new UI.TextElement("", new PointF(0.3f, 200f), 0.3f);
+
+            debugContainer.Items.Add(debug_speed);
+            debugContainer.Items.Add(debug_wheelSpeed);
+            debugContainer.Items.Add(debug_rpm);
+            debugContainer.Items.Add(debug_gear);
+            debugContainer.Items.Add(debug_angle);
+            debugContainer.Items.Add(debug_throttle);
+            debugContainer.Items.Add(debug_braking);
+            debugContainer.Items.Add(debug_clutch);
+            debugContainer.Items.Add(debug_engineTemp);
+            debugContainer.Items.Add(debug_fuelLevel);
+            debugContainer.Items.Add(debug_worldPos);
+            debugContainer.Enabled = true;
         }
 
         void OnTick(object sender, EventArgs e)
         {
-            if (vehicleStatsShow)
+            if (isDebugEnabled)
             {
                 ShowVehicleSensors();
             }
@@ -118,11 +102,10 @@ namespace test4
             if (isLoggingToFile)
             {
                 LogToFile();
-            }
-                        
+            }        
         }
 
-        void LogToFile()
+        void LogToFile() // write logged sensors to output file every frame
         {
             speed       = Game.Player.Character.CurrentVehicle.Speed.ToString();
             wheelSpeed  = Game.Player.Character.CurrentVehicle.WheelSpeed.ToString();
@@ -138,43 +121,43 @@ namespace test4
             posX        = Game.Player.Character.Position.X.ToString();
             posY        = Game.Player.Character.Position.Y.ToString();
 
-            file.WriteLine(wheelSpeed + "," + rpm + "," + gear + "," + angle + "," +
-                           throttle + "," + braking + "," + clutch + "," + engineTemp
-                           + "," + posX + "," + posY);
+            file.WriteLine(wheelSpeed + "," + rpm + "," + gear + "," + angle + "," 
+                           + throttle + "," + braking + "," + clutch + "," 
+                           + engineTemp + "," + posX + "," + posY);
         }
 
-        void ShowVehicleSensors()
+        void ShowVehicleSensors() // draws the debug display every frame (no flicker)
         {
-            info_speed.Caption      = "Speed: " + speed;
-            info_wheelSpeed.Caption = "Wheel speed: " + wheelSpeed;
-            info_rpm.Caption        = "RPM: " + rpm;
-            info_gear.Caption       = "Gear: " + gear;
-            info_angle.Caption      = "Steering angle: " + angle;
-            info_throttle.Caption   = "Throttle: " + throttle;
-            info_braking.Caption    = "Braking: " + braking;
-            info_clutch.Caption     = "Clutch: " + clutch;
-            info_engineTemp.Caption = "Engine temp: " + engineTemp;
-            info_fuelLevel.Caption  = "Fuel level: " + fuelLevel;
-            info_worldPos.Caption   = "Pos: " + worldPos;
-            infoContainer.Draw();
+            debug_speed.Caption      = "Speed: " + speed;
+            debug_wheelSpeed.Caption = "Wheel speed: " + wheelSpeed;
+            debug_rpm.Caption        = "RPM: " + rpm;
+            debug_gear.Caption       = "Gear: " + gear;
+            debug_angle.Caption      = "Steering angle: " + angle;
+            debug_throttle.Caption   = "Throttle: " + throttle;
+            debug_braking.Caption    = "Braking: " + braking;
+            debug_clutch.Caption     = "Clutch: " + clutch;
+            debug_engineTemp.Caption = "Engine temp: " + engineTemp;
+            debug_fuelLevel.Caption  = "Fuel level: " + fuelLevel;
+            debug_worldPos.Caption   = "Pos: " + worldPos;
+            debugContainer.Draw();
         }
 
         void OnKeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == (Keys)Enum.Parse(typeof(Keys), beginKey))
+            if (e.KeyCode == (Keys)Enum.Parse(typeof(Keys), cfgBeginKey))
             {
                 SetupOutputFile();
-                if (debugDisplay)
+                if (cfgDebug)
                 {
-                    vehicleStatsShow = true;
+                    isDebugEnabled = true;
                 }
                 Screen.ShowSubtitle("Logging vehicle signals..", 2000);
             }
 
-            if (e.KeyCode == (Keys)Enum.Parse(typeof(Keys), endKey))
+            if (e.KeyCode == (Keys)Enum.Parse(typeof(Keys), cfgEndKey))
             {
                 isLoggingToFile = false;
-                vehicleStatsShow = false;
+                isDebugEnabled = false;
                 file.Flush();
                 file.Close();
                 Screen.ShowSubtitle("File write complete", 2000);
