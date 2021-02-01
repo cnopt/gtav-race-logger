@@ -80,20 +80,20 @@ namespace test4
 
         void SetupDisplay()
         {
-            vehicleStatsShow = false;
-            isLoggingToFile = false;
-            infoContainer = new UI.ContainerElement(new PointF(0.3f, 0.5f), new SizeF(200, 230), Color.Transparent);
-            info_speed = new UI.TextElement("", new PointF(0.3f, 0.5f), 0.3f);
-            info_wheelSpeed = new UI.TextElement("", new PointF(0.3f, 20f), 0.3f);
-            info_rpm = new UI.TextElement("", new PointF(0.3f, 40f), 0.3f);
-            info_gear = new UI.TextElement("", new PointF(0.3f, 60f), 0.3f);
-            info_angle = new UI.TextElement("", new PointF(0.3f, 80f), 0.3f);
-            info_throttle = new UI.TextElement("", new PointF(0.3f, 100f), 0.3f);
-            info_braking = new UI.TextElement("", new PointF(0.3f, 120f), 0.3f);
-            info_clutch = new UI.TextElement("", new PointF(0.3f, 140f), 0.3f);
-            info_engineTemp = new UI.TextElement("", new PointF(0.3f, 160f), 0.3f);
-            info_fuelLevel = new UI.TextElement("", new PointF(0.3f, 180f), 0.3f);
-            info_worldPos = new UI.TextElement("", new PointF(0.3f, 200f), 0.3f);
+            vehicleStatsShow    = false;
+            isLoggingToFile     = false;
+            infoContainer       = new UI.ContainerElement(new PointF(0.3f, 0.5f), new SizeF(200, 230), Color.Transparent);
+            info_speed          = new UI.TextElement("", new PointF(0.3f, 0.5f), 0.3f);
+            info_wheelSpeed     = new UI.TextElement("", new PointF(0.3f, 20f), 0.3f);
+            info_rpm            = new UI.TextElement("", new PointF(0.3f, 40f), 0.3f);
+            info_gear           = new UI.TextElement("", new PointF(0.3f, 60f), 0.3f);
+            info_angle          = new UI.TextElement("", new PointF(0.3f, 80f), 0.3f);
+            info_throttle       = new UI.TextElement("", new PointF(0.3f, 100f), 0.3f);
+            info_braking        = new UI.TextElement("", new PointF(0.3f, 120f), 0.3f);
+            info_clutch         = new UI.TextElement("", new PointF(0.3f, 140f), 0.3f);
+            info_engineTemp     = new UI.TextElement("", new PointF(0.3f, 160f), 0.3f);
+            info_fuelLevel      = new UI.TextElement("", new PointF(0.3f, 180f), 0.3f);
+            info_worldPos       = new UI.TextElement("", new PointF(0.3f, 200f), 0.3f);
             infoContainer.Items.Add(info_speed);
             infoContainer.Items.Add(info_wheelSpeed);
             infoContainer.Items.Add(info_rpm);
@@ -124,6 +124,20 @@ namespace test4
 
         void LogToFile()
         {
+            speed       = Game.Player.Character.CurrentVehicle.Speed.ToString();
+            wheelSpeed  = Game.Player.Character.CurrentVehicle.WheelSpeed.ToString();
+            rpm         = Game.Player.Character.CurrentVehicle.CurrentRPM.ToString();
+            gear        = Game.Player.Character.CurrentVehicle.CurrentGear.ToString();
+            angle       = Game.Player.Character.CurrentVehicle.SteeringAngle.ToString();
+            throttle    = Game.Player.Character.CurrentVehicle.Throttle.ToString();
+            braking     = Game.Player.Character.CurrentVehicle.BrakePower.ToString();
+            clutch      = Game.Player.Character.CurrentVehicle.Clutch.ToString();
+            engineTemp  = Game.Player.Character.CurrentVehicle.EngineTemperature.ToString();
+            fuelLevel   = Game.Player.Character.CurrentVehicle.FuelLevel.ToString();
+            worldPos    = Game.Player.Character.Position.ToString();
+            posX        = Game.Player.Character.Position.X.ToString();
+            posY        = Game.Player.Character.Position.Y.ToString();
+
             file.WriteLine(wheelSpeed + "," + rpm + "," + gear + "," + angle + "," +
                            throttle + "," + braking + "," + clutch + "," + engineTemp
                            + "," + posX + "," + posY);
@@ -131,30 +145,17 @@ namespace test4
 
         void ShowVehicleSensors()
         {
-            speed = Game.Player.Character.CurrentVehicle.Speed.ToString();
-            info_speed.Caption = "Speed: " + speed;
-            wheelSpeed = Game.Player.Character.CurrentVehicle.WheelSpeed.ToString();
+            info_speed.Caption      = "Speed: " + speed;
             info_wheelSpeed.Caption = "Wheel speed: " + wheelSpeed;
-            rpm = Game.Player.Character.CurrentVehicle.CurrentRPM.ToString();
-            info_rpm.Caption = "RPM: " + rpm;
-            gear = Game.Player.Character.CurrentVehicle.CurrentGear.ToString();
-            info_gear.Caption = "Gear: " + gear;
-            angle = Game.Player.Character.CurrentVehicle.SteeringAngle.ToString();
-            info_angle.Caption = "Steering angle: " + angle;
-            throttle = Game.Player.Character.CurrentVehicle.Throttle.ToString();
-            info_throttle.Caption = "Throttle: " + throttle;
-            braking = Game.Player.Character.CurrentVehicle.BrakePower.ToString();
-            info_braking.Caption = "Braking: " + braking;
-            clutch = Game.Player.Character.CurrentVehicle.Clutch.ToString();
-            info_clutch.Caption = "Clutch: " + clutch;
-            engineTemp = Game.Player.Character.CurrentVehicle.EngineTemperature.ToString();
+            info_rpm.Caption        = "RPM: " + rpm;
+            info_gear.Caption       = "Gear: " + gear;
+            info_angle.Caption      = "Steering angle: " + angle;
+            info_throttle.Caption   = "Throttle: " + throttle;
+            info_braking.Caption    = "Braking: " + braking;
+            info_clutch.Caption     = "Clutch: " + clutch;
             info_engineTemp.Caption = "Engine temp: " + engineTemp;
-            fuelLevel = Game.Player.Character.CurrentVehicle.FuelLevel.ToString();
-            info_fuelLevel.Caption = "Fuel level: " + fuelLevel;
-            worldPos = Game.Player.Character.Position.ToString();
-            info_worldPos.Caption = "Pos: " + worldPos;
-            posX = Game.Player.Character.Position.X.ToString();
-            posY = Game.Player.Character.Position.Y.ToString();
+            info_fuelLevel.Caption  = "Fuel level: " + fuelLevel;
+            info_worldPos.Caption   = "Pos: " + worldPos;
             infoContainer.Draw();
         }
 
@@ -163,12 +164,10 @@ namespace test4
             if (e.KeyCode == (Keys)Enum.Parse(typeof(Keys), beginKey))
             {
                 SetupOutputFile();
-                             
                 if (debugDisplay)
                 {
                     vehicleStatsShow = true;
                 }
-
                 Screen.ShowSubtitle("Logging vehicle signals..", 2000);
             }
 
