@@ -137,7 +137,7 @@ namespace test4
 
                 Random rnd = new System.Random();
                 rNum = rnd.Next(1, 5000);
-                file = new System.IO.StreamWriter(System.AppDomain.CurrentDomain.BaseDirectory + "generated\" + rNum + ".txt", true);
+                file = new System.IO.StreamWriter(@"D:\Users\Charlie\Documents\gtav-race-logger\gtav-race-logger\generated\" + rNum + ".txt", true);
                 file.WriteLine("Wheel Speed,RPM,Gear,Angle,Throttle,Braking,Clutch,Temp,X,Y");
                 vehicleStatsShow = true;
                 Screen.ShowSubtitle("Logging vehicle signals..", 2000);
