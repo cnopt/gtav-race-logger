@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,9 +9,10 @@ using GTA.Native;
 using GTA.Math;
 using GTA.UI;
 using System.Windows.Forms;
-
 using Screen = GTA.UI.Screen;
 using UI = GTA.UI;
+using IniParser;
+using IniParser.Model;
 
 
 namespace test4
@@ -20,6 +20,8 @@ namespace test4
    public class Main : Script
     {
         bool vehicleStatsShow;
+        string beginKey;
+        string endKey;
         string speed;
         string wheelSpeed;
         string rpm;
@@ -50,6 +52,10 @@ namespace test4
 
         public Main()
         {
+            var parser = new FileIniDataParser();
+            IniData data = parser.ReadFile(@"D:\Users\Charlie\Documents\gtav-race-logger\gtav-race-logger\config.ini");
+            beginKey = data["General"]["BeginKey"];
+            endKey = data["General"]["EndKey"];
             Setup();
             Tick += OnTick;
             KeyDown += OnKeyDown;
@@ -58,7 +64,7 @@ namespace test4
         void Setup()
         {
             vehicleStatsShow = false;
-            infoContainer = new UI.ContainerElement(new PointF(0.3f, 0.5f), new SizeF(200, 230), Color.Black);
+            infoContainer = new UI.ContainerElement(new PointF(0.3f, 0.5f), new SizeF(200, 230), Color.Transparent);
             info_speed = new UI.TextElement("", new PointF(0.3f, 0.5f), 0.3f);
             info_wheelSpeed = new UI.TextElement("", new PointF(0.3f, 20f), 0.3f);
             info_rpm = new UI.TextElement("", new PointF(0.3f, 40f), 0.3f);
@@ -124,7 +130,7 @@ namespace test4
 
         void OnKeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.F10)
+            if (e.KeyCode == (Keys)Enum.Parse(typeof(Keys), beginKey))
             {
                 infoContainer.Enabled = true;
 
@@ -136,7 +142,7 @@ namespace test4
                 Screen.ShowSubtitle("Logging vehicle signals..", 2000);
             }
 
-            if (e.KeyCode == Keys.F11)
+            if (e.KeyCode == (Keys)Enum.Parse(typeof(Keys), endKey))
             {
                 vehicleStatsShow = false;
                 file.Flush();
