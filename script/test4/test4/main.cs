@@ -21,6 +21,7 @@ namespace test4
         bool vehicleStatsShow;
         TextElement statsmsg;
         TextElement currentSpeed;
+        TextElement currentWheelSpeed;
         TextElement currentRPM;
         TextElement currentGear;
         TextElement currentAngle;
@@ -44,12 +45,12 @@ namespace test4
         void Setup()
         {
             vehicleStatsShow = false;
-            statsmsg = new UI.TextElement("Text", new PointF(0.3f, 0.5f), 0.7f);
-            currentSpeed = new UI.TextElement("Text", new PointF(0.3f, 0.5f), 0.5f);
-            currentRPM = new UI.TextElement("Text", new PointF(0.3f, 40f), 0.5f);
-            currentGear = new UI.TextElement("Text", new PointF(0.3f, 60f), 0.5f);
-            currentAngle = new UI.TextElement("Text", new PointF(0.3f, 80f), 0.5f);
-            currentThrottle = new UI.TextElement("Text", new PointF(0.3f, 100f), 0.5f);
+            currentSpeed = new UI.TextElement("Text", new PointF(0.3f, 0.5f), 0.5f, System.Drawing.Color.Red);
+            currentWheelSpeed = new UI.TextElement("Text", new PointF(0.3f, 20f), 0.5f);
+            currentRPM = new UI.TextElement("Text", new PointF(0.3f, 40f), 0.5f, System.Drawing.Color.Green);
+            currentGear = new UI.TextElement("Text", new PointF(0.3f, 60f), 0.5f, System.Drawing.Color.Aqua);
+            currentAngle = new UI.TextElement("Text", new PointF(0.3f, 80f), 0.5f, System.Drawing.Color.Yellow);
+            currentThrottle = new UI.TextElement("Text", new PointF(0.3f, 100f), 0.5f, System.Drawing.Color.Orange);
             currentBraking = new UI.TextElement("Text", new PointF(0.3f, 120f), 0.5f);
             currentClutch = new UI.TextElement("Text", new PointF(0.3f, 140f), 0.5f);
             currentEngineTemp = new UI.TextElement("Text", new PointF(0.3f, 160f), 0.5f);
@@ -61,18 +62,20 @@ namespace test4
         {
             if (vehicleStatsShow)
             {
-                currentSpeed.Caption = Game.Player.Character.CurrentVehicle.Speed.ToString();
-                currentRPM.Caption   = Game.Player.Character.CurrentVehicle.CurrentRPM.ToString();
-                currentGear.Caption  = Game.Player.Character.CurrentVehicle.CurrentGear.ToString();
-                currentAngle.Caption = Game.Player.Character.CurrentVehicle.SteeringAngle.ToString();
-                currentThrottle.Caption = Game.Player.Character.CurrentVehicle.Throttle.ToString();
-                currentBraking.Caption = Game.Player.Character.CurrentVehicle.BrakePower.ToString();
-                currentClutch.Caption = Game.Player.Character.CurrentVehicle.Clutch.ToString();
-                currentEngineTemp.Caption = Game.Player.Character.CurrentVehicle.EngineTemperature.ToString();
-                currentFuelLevel.Caption = Game.Player.Character.CurrentVehicle.FuelLevel.ToString();
-                currentPos.Caption = Game.Player.Character.Position.ToString();
+                currentSpeed.Caption = "Speed: " + Game.Player.Character.CurrentVehicle.Speed.ToString();
+                currentWheelSpeed.Caption = "Wheel speed: " + Game.Player.Character.CurrentVehicle.WheelSpeed.ToString();
+                currentRPM.Caption   = "RPM: " + Game.Player.Character.CurrentVehicle.CurrentRPM.ToString();
+                currentGear.Caption  = "Gear: " + Game.Player.Character.CurrentVehicle.CurrentGear.ToString();
+                currentAngle.Caption = "Steering angle: " + Game.Player.Character.CurrentVehicle.SteeringAngle.ToString();
+                currentThrottle.Caption = "Throttle pos: " + Game.Player.Character.CurrentVehicle.Throttle.ToString();
+                currentBraking.Caption = "Braking: " + Game.Player.Character.CurrentVehicle.BrakePower.ToString();
+                currentClutch.Caption = "Clutch: " + Game.Player.Character.CurrentVehicle.Clutch.ToString();
+                currentEngineTemp.Caption = "Engine temp: " + Game.Player.Character.CurrentVehicle.EngineTemperature.ToString();
+                currentFuelLevel.Caption = "Fuel level: " + Game.Player.Character.CurrentVehicle.FuelLevel.ToString();
+                currentPos.Caption = "Pos: " + Game.Player.Character.Position.ToString();
 
                 currentSpeed.Draw();
+                currentWheelSpeed.Draw();
                 currentRPM.Draw();
                 currentGear.Draw();
                 currentAngle.Draw();
@@ -94,6 +97,7 @@ namespace test4
             if (e.KeyCode == Keys.F10)
             {
                 currentSpeed.Enabled = true;
+                currentWheelSpeed.Enabled = true;
                 currentRPM.Enabled = true;
                 currentGear.Enabled = true;
                 currentAngle.Enabled = true;
@@ -109,6 +113,15 @@ namespace test4
                 file = new System.IO.StreamWriter(@"D:\Users\Charlie\Documents\gtav-race-logger\generated\" + rNum + ".txt", true);
 
                 vehicleStatsShow = true;
+                Screen.ShowSubtitle("Logging vehicle signals", 2000);
+            }
+
+            if (e.KeyCode == Keys.F11)
+            {
+                vehicleStatsShow = false;
+                file.Flush();
+                file.Close();
+                Screen.ShowSubtitle("File written", 2000);
             }
 
         }
