@@ -12,7 +12,6 @@
 #gauge-div {
     font-family: qtype-reg;
     display: inline-block;
-    padding: 3rem;
 }
 #gauge-rpm {
     width:400px

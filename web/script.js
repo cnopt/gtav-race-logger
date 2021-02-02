@@ -5,9 +5,7 @@
     const gear          = document.getElementById('gear-val');
     const throttle      = document.getElementById('throttle-val');
     const brake         = document.getElementById('brake-val');
-    const angle         = document.getElementById('angle');
-    const clutch        = document.getElementById('clutch');
-    const wheel         = document.getElementById('wheel');
+    const wheel         = document.getElementById('steering-wheel-img');
     var c = lineCanvas;
     var ctx = c.getContext("2d");
     ctx.fillStyle = "#202124";
@@ -21,6 +19,8 @@
                 rpm.style.width = fastFloor(scaledRPM) + 'px';
                 speed.innerHTML = fastFloor(item['Wheel Speed']);
                 gear.innerHTML = item['Gear'];
+                var scaledAngle = scaleRawValues(item['Angle'], -35, 35, -160, 160)
+                wheel.style.transform = 'rotate(' + scaledAngle + 'deg)'; 
             }, i*16);
         });
         drawXY(results);
