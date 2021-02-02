@@ -14,9 +14,12 @@
     function dataCallback(results) {
         results.data.forEach((item, i) => {
             setTimeout(() => {
+                console.log (i);
+                // maybe this is where i should animate the line, as this could hold a 'frame count' of sorts
                 xPos.innerHTML = item['X'];
             }, i*16);
         });
+        xyCallback(results);
     }
 
     async function f(results) {
@@ -33,8 +36,8 @@
         console.log("async function complete");
     }
 
-    function xyCallback(results) {
 
+    function xyCallback(results) {
         f(results).then(
             function() {
                 console.log("now doing the next one");
@@ -65,22 +68,10 @@
             }
         });
     }
-
-    function parseXY(url, callBack) {
-        Papa.parse(url, {
-            header:true,
-            skipEmptyLines:true,
-            complete:function(results) {
-                xyCallback(results)
-            }
-        })
-    }
     
-
     fileSelector.addEventListener('change', (event) => {
         const fileList = event.target.files;
         parseData(fileList[0]);
-        parseXY(fileList[0]);
     });
 
 
