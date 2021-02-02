@@ -1,10 +1,10 @@
 
     const fileSelector  = document.getElementById('file-selector');
-    const speed         = document.getElementById('val');
-    const rpm           = document.getElementById('rpm');
-    const gear          = document.getElementById('gear');
-    const throttle      = document.getElementById('throt');
-    const brake         = document.getElementById('brake');
+    const speed         = document.getElementById('mph-val');
+    const rpm           = document.getElementById('rpm-meter');
+    const gear          = document.getElementById('gear-val');
+    const throttle      = document.getElementById('throttle-val');
+    const brake         = document.getElementById('brake-val');
     const angle         = document.getElementById('angle');
     const clutch        = document.getElementById('clutch');
     const wheel         = document.getElementById('wheel');
@@ -20,6 +20,7 @@
                 var scaledRPM = scaleRawValues(item['RPM'], 0.2, 1, 0, 400);
                 rpm.style.width = fastFloor(scaledRPM) + 'px';
                 speed.innerHTML = fastFloor(item['Wheel Speed']);
+                gear.innerHTML = item['Gear'];
             }, i*16);
         });
         drawXY(results);

@@ -7,24 +7,22 @@
   </head>
   <body style="background-color: #202124;color: white;">
 
-    <canvas id="lineCanvas" width="750" height="500"></canvas>
-    <input type="file" id="file-selector">
-    <p id="throt"></p>
-    <p id="speed"></p>
-    <p id="gear"></p>
-    <p id="clutch"></p>
-    <p id="brake"></p>
-    <p id="angle"></p> 
+    <div id="canvasDiv">
+      <canvas id="lineCanvas" width="750" height="500"></canvas>
+    </div>
+    
 
     <div id="gauge-div">
         <div id="gauge-rpm">
-          <div id="rpm"></div>
+          <div id="rpm-meter"></div>
         </div>
         <div id="lower-div">
-          <div id="brake-pressure"><div id="brake-val"></div></div>
+          <div id="brake-pressure">
+            <div id="brake-val"></div>
+          </div>
           <div id="mph">
-            <p id="val">000</p>
-            <p id="val-sub">mph</p>
+            <p id="mph-val">000</p>
+            <p id="mph-val-sub">mph</p>
           </div>
           <div id="gear">
             <p id="gear-val">0</p>
@@ -35,7 +33,7 @@
         </div>
       </div>
 
-    
+      <input type="file" id="file-selector">
   
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="papaparse.js"></script>
