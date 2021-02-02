@@ -7,12 +7,34 @@
   </head>
   <body style="background-color: #202124;color: white;">
 
-    <canvas id="lineCanvas" width="800" height="600" style="border:1px solid #ffffff;background-color: #202124;"></canvas>
-    <input type="file" id="file-selector">
-    <p id="xPos"></p>
-    <p id="xPos"></p>
-
+    <div id="canvasDiv">
+      <canvas id="lineCanvas" width="750" height="500"></canvas>
+    </div>
     
+    <img id="steering-wheel-img" width="80px" src="wheel.png"/>
+    
+    <div id="gauge-div">
+        <div id="gauge-rpm">
+          <div id="rpm-meter"></div>
+        </div>
+        <div id="lower-div">
+          <div id="brake-pressure">
+            <div id="brake-val"></div>
+          </div>
+          <div id="mph">
+            <p id="mph-val">000</p>
+            <p id="mph-val-sub">mph</p>
+          </div>
+          <div id="gear">
+            <p id="gear-val">0</p>
+          </div>
+          <div id="throttle-pos">
+            <div id="throttle-val"></div>
+          </div>
+        </div>
+      </div>
+
+      <input type="file" id="file-selector">
   
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="papaparse.js"></script>
