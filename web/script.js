@@ -1,30 +1,32 @@
 
     const fileSelector  = document.getElementById('file-selector');
-    const xPos = document.getElementById('xPos');
-    const yPos = document.getElementById('yPos');
-
+    const speed         = document.getElementById('val');
+    const rpm           = document.getElementById('rpm');
+    const gear          = document.getElementById('gear');
+    const throttle      = document.getElementById('throt');
+    const brake         = document.getElementById('brake');
+    const angle         = document.getElementById('angle');
+    const clutch        = document.getElementById('clutch');
+    const wheel         = document.getElementById('wheel');
     var c = lineCanvas;
     var ctx = c.getContext("2d");
     ctx.fillStyle = "#202124";
-
     var minx,miny,maxx,maxy,range,scale,rangeX,rangeY;
 
-
     
-    function dataCallback(results) {
+    function dataCallback(results) { // maybe this is where i should animate the line, as this could hold a 'frame count' of sorts
         results.data.forEach((item, i) => {
             setTimeout(() => {
-                // console.log (i);
-                // maybe this is where i should animate the line, as this could hold a 'frame count' of sorts
-                xPos.innerHTML = item['X'];
+                var scaledRPM = scaleRawValues(item['RPM'], 0.2, 1, 0, 400);
+                rpm.style.width = fastFloor(scaledRPM) + 'px';
+                speed.innerHTML = fastFloor(item['Wheel Speed']);
             }, i*16);
         });
-        xyCallback(results);
+        drawXY(results);
     }
 
 
-    function xyCallback(results) {
-
+    function drawXY(results) {
         miny = minx = Infinity
         maxx = maxy = -Infinity;
         results.data.forEach(dat => {
@@ -37,7 +39,7 @@
         rangeY = maxy - miny;
 
         console.log(maxx, maxy);
-        console.log(minx,miny)
+        console.log(minx,miny);
         range = Math.max(rangeX,rangeY);
         scale = Math.min(c.width,c.height);
         ctx.beginPath();
@@ -50,9 +52,9 @@
         });
         ctx.strokeStyle = "white"
         ctx.stroke();
- 
-    }
+     }
     
+
     function parseData(url, callBack) {
         Papa.parse(url, {
             header:true,
@@ -62,7 +64,17 @@
             }
         });
     }
+
+    const scaleRawValues = (num, in_min, in_max, out_min, out_max) => {
+        return (num - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+    }
+
+    function fastFloor(f) {
+        return ~~(f*1.0)
+    }
+
     
+
     fileSelector.addEventListener('change', (event) => {
         const fileList = event.target.files;
         parseData(fileList[0]);

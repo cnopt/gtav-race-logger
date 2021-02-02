@@ -7,10 +7,33 @@
   </head>
   <body style="background-color: #202124;color: white;">
 
-    <canvas id="lineCanvas" width="800" height="600" style="border:1px solid #ffffff;background-color: #202124;"></canvas>
+    <canvas id="lineCanvas" width="750" height="500"></canvas>
     <input type="file" id="file-selector">
-    <p id="xPos"></p>
-    <p id="xPos"></p>
+    <p id="throt"></p>
+    <p id="speed"></p>
+    <p id="gear"></p>
+    <p id="clutch"></p>
+    <p id="brake"></p>
+    <p id="angle"></p> 
+
+    <div id="gauge-div">
+        <div id="gauge-rpm">
+          <div id="rpm"></div>
+        </div>
+        <div id="lower-div">
+          <div id="brake-pressure"><div id="brake-val"></div></div>
+          <div id="mph">
+            <p id="val">000</p>
+            <p id="val-sub">mph</p>
+          </div>
+          <div id="gear">
+            <p id="gear-val">0</p>
+          </div>
+          <div id="throttle-pos">
+            <div id="throttle-val"></div>
+          </div>
+        </div>
+      </div>
 
     
   

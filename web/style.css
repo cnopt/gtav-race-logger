@@ -1,0 +1,23 @@
+#lineCanvas {
+    border:1px solid #656565;
+    background-color: #171717;
+}
+
+#gauge-div {
+    display: inline-block;
+    padding: 3rem;
+}
+#gauge-rpm {
+    width:400px
+}
+#lower-div {
+    margin-top: -0.8rem;
+    text-align: center;
+    margin-left: -2.85rem;
+    width: 460px;
+}
+#rpm {
+    background-color: #f2f2f2;
+    height: 12px;
+    width: 0;
+}
